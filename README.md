@@ -1,3 +1,10 @@
+Para baixar o KSecurity:
+git clone https://github.com/Keidi16/Ksecurity.git
+Dependências:
+pip install multiprocessing
+pip install colorama
+De resto vem no linux por padrão.
+
 KSecurity 1.0
 É o meu projeto linux de segurança que tem como objectivo monitorar logs do servidor Apache e monitorar todas conexões são estabelecidos no sistema, a versão básica só tem duas funcionalidades.
 1-Monitoramento de logs do servidor Apache.
