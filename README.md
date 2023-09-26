@@ -40,5 +40,5 @@ python3 ksecurity.py
 ```
 
 ## HELP ME
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/your-paypal-link)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/KeidiAO)
 
