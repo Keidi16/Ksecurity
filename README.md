@@ -1,16 +1,40 @@
-Para baixar o KSecurity:
+## KSecurity 1.0
+Linux Security Monitor is a project aimed at enhancing server security by monitoring Apache server logs and all system connections. The basic version of this tool provides two core functionalities:
+
+1. **Apache Server Log Monitoring**
+   - Detects and monitors potential fuzzing attacks against the Apache server running on port 80.
+   - Keeps an eye on attempts to access restricted administrative files.
+
+2. **System Connection Monitoring**
+   - Monitors all connections, whether internal or external, to identify instances of Reverse Shells or Shell Reverses.
+   - Provides vigilant oversight of these processes.
+
+This project is designed to help bolster the security of your Linux server by actively identifying and responding to suspicious activities. It's an essential addition to your cybersecurity toolkit.
+
+### Features:
+- Real-time monitoring of Apache server logs.
+- Detection and alerting of potential security threats.
+- Comprehensive tracking of system connections.
+- User-friendly and easily configurable.
+
+### Installation
+
+You can easily get started with KSecurity by following these steps:
+
+1. Clone the repository to your local machine using Git:
+
+```bash
 git clone https://github.com/Keidi16/Ksecurity.git
-Dependências:
 pip install multiprocessing
 pip install colorama
-De resto vem no linux por padrão.
+```
+### Usage
 
-KSecurity 1.0
-É o meu projeto linux de segurança que tem como objectivo monitorar logs do servidor Apache e monitorar todas conexões são estabelecidos no sistema, a versão básica só tem duas funcionalidades.
-1-Monitoramento de logs do servidor Apache.
-2-Monitoramento de todas conexões que são abertas no sistema.
-A primeira funcionalidade, ele monitora ataques de fuzzing contra o servidor apache (rodando na porta 80), tentativas de acessos restritos de arquivos administrativos.
-Segunda funcionalidade, ele monitora em casos de Reverse Shell /Shell Reverse, ele detectará em casos de qualquer conexões que seja interna ou externa, ele monitora todo esses processos.
-Podem crer que a próxima versão estará mais complexa que está, um amigo meu me sugeriu que eu criasse plugin pro apache, estou analisando tudo isso.
+To run KSecurity, follow these steps:
 
-Estão livres dde contribuir para este projeto.jeto.jeto.
+1. Make the `ksecurity.py` script executable by running the following command in your terminal:
+
+```bash
+chmod +x ksecurity.py
+python3 ksecurity.py
+
